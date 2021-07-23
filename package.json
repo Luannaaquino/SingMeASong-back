@@ -1,7 +1,6 @@
 {
   "name": "typescript-back-template",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "npx jest -i",
@@ -14,10 +13,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
     "@types/cors": "^2.8.12",
     "@types/express": "^4.17.13",
     "@types/jest": "^26.0.24",
-    "@types/node": "^16.3.3",
+    "@types/node": "^16.4.1",
     "@types/pg": "^8.6.1",
     "@types/supertest": "^2.0.11",
     "jest": "^27.0.6",
@@ -29,7 +29,21 @@
   },
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
     "express": "^4.17.1",
+    "joi": "^17.4.1",
     "pg": "^8.6.0"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luannaaquino/SingMeASong-back.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Luannaaquino/SingMeASong-back/issues"
+  },
+  "homepage": "https://github.com/Luannaaquino/SingMeASong-back#readme",
+  "description": ""
 }
